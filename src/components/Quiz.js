@@ -93,7 +93,7 @@ function Quiz() {
       {/* Show the blocker popup if not in full-screen */}
       {!canTakeQuiz && (
         <div className="blocker-popup">
-          <p>Please take the quiz in full-screen mode.</p>
+          <p className='full-screen'>Please take the quiz in full-screen mode.</p>
         </div>
       )}
     </div>
